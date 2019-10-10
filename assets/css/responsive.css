@@ -1,0 +1,463 @@
+@media all and (min-width: 1200px) {
+	.kbo-container-for-agency,
+	.kbo-container-for-footer,
+	.kbo-container-for-analytics,
+	.kbo-container-for-testimonials,
+	.kbo-container-for-header,
+	.container {
+	    max-width: 1170px;
+	}
+	.navbar-light .navbar-nav li {
+	    padding: 0 33px 0 0;
+	}
+}
+@media all and (min-width: 1400px) {
+	.kbo-container-for-agency,
+	.kbo-container-for-footer,
+	.kbo-container-for-analytics,
+	.kbo-container-for-testimonials,
+	.kbo-container-for-header {
+		max-width: 1370px;	
+	}
+}
+@media all and (min-width: 1600px) {
+	.kbo-container-for-agency,
+	.kbo-container-for-footer,
+	.kbo-container-for-analytics,
+	.kbo-container-for-testimonials,
+	.kbo-container-for-header {
+		max-width: 1520px;	
+	}
+	.kbo-agency-title-area {
+	    padding-left: 15px;
+	    padding-right: 15px;
+	}
+}
+@media all and (min-width: 1800px) {
+	.kbo-container-for-agency {
+		max-width: 1764px;	
+	}
+}
+@media all and (max-width: 1800px) {
+	.kbo-site-banner {
+	    padding-top: 100px;
+	}
+	.kbo-site-banner h2 {
+    	padding-bottom: 60px;
+	}
+	.kbo-site-banner p {
+	    padding-bottom: 50px;
+	}
+	
+}
+@media all and (max-width: 1600px) {
+	header .kbo-logo {
+	    -ms-flex: 0 0 25%;
+	    flex: 0 0 25%;
+	    max-width: 25%;
+	}
+	.kbo-header-right {
+	    -ms-flex: 0 0 75%;
+	    flex: 0 0 75%;
+	    max-width: 75%;
+	}
+	.kbo-container-for-analytics {
+		padding-right: 15px;
+	}
+	.kbo-agency-title-area {
+	    padding-left: 50px;
+	    padding-right: 100px;
+	}
+	.kbo-grid {
+	    min-height: 740px;
+	}
+	.kbo-agency-task {
+	    background-size: 70%;
+	}
+	.kbo-testimonial-wrap {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.kbo-footer-logo {
+	    min-width: auto;
+	}
+	.kbo-container-for-footer > div {
+		margin-left: -15px;
+    	margin-right: -15px;
+	}
+	
+}
+@media all and (max-width: 1400px) {
+	.kbo-analytics-4 {
+	    width: 36%;
+	    padding-right: 0;
+	}
+	.kbo-analytics-3 {
+	    width: 32%;
+	    margin-left: 30px;
+	}
+	.kbo-analytics-3 > div {
+	    padding: 32px 36px 64px 28px;
+	}
+	.kbo-analytics-3 h3 {
+	    font-size: 22px;
+	}
+	.kbo-agency-task {
+	    background-size: 70%;
+	}
+	.kbo-grid {
+	    min-height: 620px;
+	}
+	.kbo-testimonials {
+	    background-size: 40%;
+	}
+	.kbo-language select {
+	    max-width: 109px;
+	}
+	.kbo-footer-logo .kbo-footer-lists li {
+	    padding-right: 9px;
+	}
+	.kbo-social-icons li {margin-right: 15px;}
+	.kbo-social-icons li:last-child {margin-right: 0;}
+	.kbo-about-company h3, .kbo-about-company ul {
+	    padding-left: 15px;
+	}
+	.kbo-site-banner {
+	    padding-top: 80px;
+	}
+}
+@media all and (max-width: 1200px) {
+	.navbar-light .navbar-nav li {
+	    padding: 0 20px 0 0;
+	}
+	.navbar-light .navbar-nav .nav-link {
+	    font-size: 16px;
+	}
+	.kbo-site-banner {
+	    padding-top: 60px;
+	}
+	.kbo-site-banner h2 {
+	    padding-right: 346px;
+	    font-size: 42px;
+    	padding-bottom: 30px;
+	}
+	.kbo-site-banner h2 br {
+	    display: none;
+	}
+	.kbo-site-banner p {
+	    padding-bottom: 30px;
+	}
+	.kbo-site-analytics-list {
+	    padding-top: 100px;
+	}
+	.kbo-analytics-3 ul, .kbo-analytics-3 p, .kbo-analytics-3 h3 {
+	    padding-left: 0;
+	}
+	.kbo-analytics-3 h3 {
+	    margin-bottom: 12px;
+	}
+	.kbo-analytics-3 p {
+	    margin-bottom: 29px;
+	    font-size: 16px;
+	}
+	.kbo-analytics-3 li {
+	    font-size: 16px;
+	}
+	.kbo-analytics-3 > div {
+	    padding: 32px 36px 50px 28px;
+	}
+	.kbo-analytics-3 h3 {
+	    font-size: 20px;
+	}
+	.kbo-analytics-title-area h3 {
+	    font-size: 40px;
+	}
+	.kbo-agency-title-area {
+	    padding-left: 15px;
+	    padding-right: 15px;
+	}
+	.kbo-grid {
+	    min-height: 520px;
+	}
+	.kbo-testimonial-wrap {
+	    width: 100%;
+	}
+	#kboTestimonials .flex-direction-nav .flex-next {
+	    right: 39%;
+	}
+	#kboTestimonials .flex-direction-nav .flex-prev {
+	    left: 39%;
+	}
+	.kbo-testimonials {
+	    padding: 120px 0 200px;
+	}
+	#kboTestimonials .flex-direction-nav a {
+	    bottom: -100px;
+	}
+	.kbo-call-to-action-wrap p {
+	    padding-right: 250px;
+	}
+	.kbo-call-to-action-wrap p br {
+	    display: none;
+	}
+	.kbo-call-to-action-wrap {
+	    background-size: 100% 100%;
+	}
+	.kbo-footer-top h3 {
+	    font-size: 18px;
+	}
+	.kbo-language label,
+	.kbo-footer-top p, .kbo-footer-top ul li a {
+	    font-size: 14px;
+	}
+	.kbo-subscribe input[type="email"],
+	.kbo-language select {
+	    font-size: 12px;
+	}
+	.kbo-language select {
+	    max-width: 86px;
+	}
+	.kbo-footer-logo .kbo-footer-lists li {
+	    padding-right: 4px;
+	}
+	.kbo-footer-logo .kbo-footer-lists li:last-child {
+	    padding-right: 0;
+	}
+	.kbo-social-icons li {
+	    width: 40px;
+	    height: 40px;
+	    padding-top: 10px;
+	    margin-right: 14px;
+	}
+	.kbo-footer-top .kbo-information p.kbo-cell a {
+	    font-size: 16px;
+	}
+	.kbo-agency-task {
+	    padding: 100px 0 127px;
+	}
+}
+@media all and (max-width: 991px) {
+	.collapse:not(.show) {
+	    display: none !important;
+	}
+	header .kbo-logo {
+	   -ms-flex: 0 0 33.333333%;
+	    flex: 0 0 33.333333%;
+	    max-width: 33.333333%;
+	}
+	.kbo-header-right {
+	    -ms-flex: 0 0 66.666667%;
+	    flex: 0 0 66.666667%;
+	    max-width: 66.666667%;
+	    position: relative;
+	}
+	.kbo-header-meta {
+		position: absolute;
+	    right: 15px;
+	    top: 15px;
+	}
+	.navbar {
+	    justify-content: flex-end;
+	}
+	.kbo-logo {
+	    padding-top: 70px;
+	}
+	#navbarTogglerDemo02 {
+		position: absolute;
+	    right: 0px;
+	    top: 100%;
+	    z-index: 10;
+	}
+	.navbar .navbar-nav {
+	    padding: 10px 20px;
+	    width: 290px;
+	    background: #f8f8f8;
+	    border-radius: 5px;
+	    box-shadow: 0px 0px 10px 1px #f1f1f1;
+	    margin-top: 10px;
+	}
+	.navbar-light .navbar-nav li:last-child,
+	.navbar-light .navbar-nav li {
+	    padding: 10px 0px 10px 0;
+	}
+	.navbar-light .navbar-toggler {
+		outline: none;
+		background: #f8f8f8;
+	}
+	.navbar-light .navbar-nav .nav-link {
+	    font-size: 20px;
+	}
+	.kbo-site-banner p,
+	.kbo-site-banner h2 {
+	    padding-right: 226px;
+	}
+	.kbo-analytics-title-area h3 br,
+	.kbo-site-banner p br {
+		display: none;
+	}
+	.kbo-analytics-title-area h3 {
+	    padding-right: 180px;
+	}
+	.kbo-analytics-3,
+	.kbo-analytics-4 {
+	    width: 33.333%;
+	}
+	.kbo-analytics-3 {
+	    margin-left: 20px;
+	}
+	.kbo-analytics-3 > div {
+	    padding: 20px 15px 92px 15px;
+	}
+	.kbo-analytics-3 h3 {
+	    font-size: 18px;
+	}
+	.kbo-analytics-3 li {
+	    font-size: 14px;
+	}
+	.kbo-agency-title-area h3 {
+	    font-size: 40px;
+	}
+	.kbo-number {
+	    width: 258px;
+	}
+	.kbo-button {font-size: 16px;}
+	.kbo-grid {
+	    min-height: 400px;
+	}
+	.kbo-testimonials {
+	    padding: 80px 0 160px;
+	}
+	#kboTestimonials .flex-direction-nav .flex-next {
+	    right: 36%;
+	}
+	#kboTestimonials .flex-direction-nav .flex-prev {
+	    left: 36%;
+	}
+	.kbo-container-for-footer > div {
+		flex-wrap: wrap!important;
+	}
+	.kbo-about-company h3, .kbo-about-company ul {
+	    padding-left: 0;
+	}
+}
+@media all and (max-width: 767px) {
+	.kbo-agency-title-area,
+	.kbo-container-for-analytics > .d-flex {
+		flex-wrap: wrap;
+	}
+	.kbo-element-item {
+	    width: calc(100%/2);
+	}
+	.kbo-logo {
+	    padding-top: 78px;
+	}
+	.kbo-header-right,
+	header .kbo-logo {
+	    -ms-flex: 0 0 50%;
+	    flex: 0 0 50%;
+	    max-width: 50%;
+	}
+	.kbo-site-banner p, .kbo-site-banner h2 {
+	    padding-right: 0;
+	}
+	.kbo-site-banner h2 {
+	    font-size: 30px;
+	}
+	body {
+		background: #fff;
+	}
+	.kbo-header-right {
+	    padding-top: 85px;
+	}
+	.kbo-get-started {
+	    margin-right: 0;
+	    max-width: 180px;
+	}
+	.kbo-get-started img {
+	    margin-left: -20px;
+	    width: 100%;
+	}
+	.kbo-video {
+	    top: -13px;
+	}
+	.kbo-analytics-title-area h3 {
+	    padding-right: 0;
+	    padding-bottom: 30px;
+	}
+	.kbo-analytics-title-area a {
+	    position: relative;
+	    top: 0;
+	    right: auto;
+	    display: block;
+	    width: 100%;
+	    margin-bottom: 30px;
+	}
+	.kbo-analytics-3, .kbo-analytics-4 {
+	    width: 100%;
+	    margin-bottom: 30px;
+	    padding: 0;
+	}
+	.kbo-analytics-3 {
+	    margin-left: 0;
+	}
+	.kbo-analytics-3 > div {
+	    padding: 40px 30px 92px;
+	}
+	.kbo-agency-title-area h3 {
+	    font-size: 30px;
+	    padding-bottom: 30px;
+	    margin: 0;
+	}
+	.kbo-number {
+	    width: 100%;
+	    margin: 0;
+	}
+	.kbo-task-complete {
+		padding-bottom: 30px;
+	}
+	.kbo-agency-task {
+    	padding: 100px 0 0;
+	    background: transparent;
+	}
+	.kbo-client-say-title {line-height: 32px; font-size: 30px;}
+	.kbo-client-say-title,
+	.kbo-testimonials-title {
+		margin: 0 0 30px;
+	}
+	.kbo-testimonial-wrap {
+		background: transparent;
+	}
+	#kboTestimonials ul.slides li .kbo-testimonial-list {
+	    padding: 30px 20px 70px;
+	}
+	#kboTestimonials .flex-direction-nav {
+		display: none;
+	}
+	.kbo-call-to-action-wrap {
+	    background: #fff;
+	    padding: 0px 15px 40px;
+	    margin-bottom: 30px;
+	    box-shadow: none;
+	}
+	.kbo-call-to-action-wrap h3 {
+		margin: 0 0 30px;
+	}
+	.kbo-call-to-action-wrap p {
+	    padding-right: 0;
+	}
+	.kbo-btn-with-bg {
+	    position: relative;
+	    top: 0;
+	    right: auto;
+	    margin-top: 30px;
+	}
+	.kbo-testimonials {
+	    padding: 80px 0;
+	}
+	.kbo-site-footer {
+	    padding: 50px 0 30px;
+	}
+	.kbo-footer-top h3 {
+	    margin-bottom: 30px;
+	}
+}

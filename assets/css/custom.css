@@ -1,0 +1,619 @@
+@import url('https://fonts.googleapis.com/css?family=Niramit:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+/*font-family: 'Poppins', sans-serif;*/
+body {
+	background: #fff;
+	font-size: 18px;
+	line-height: 24px;
+	font-family: 'Niramit', sans-serif;
+	color: #282331;
+	background-image: url('../images/banner-image.png');
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: top center;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: #8f49f9;
+	text-decoration: none;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+.site-color-2 {
+	color: #b49ffa;
+}
+.kbo-btn {
+	width: 175px;
+    height: 50px;
+    border: 1px solid #f2e3ff;
+    text-align: center;
+    padding-top: 13px;
+    color: #8f49f9;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.kbo-btn-with-bg {
+
+}
+
+.kbo-logo {
+    padding-top: 62px;
+}
+/*.. navigation menu ...*/
+.navbar {
+	padding: 0;
+}
+.navbar .navbar-nav {
+	padding-right: 35px;
+}
+.navbar-light .navbar-nav li {
+	padding: 0 53px 0 0;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #282331;
+	font-size: 22px;
+	padding: 0;
+}
+.navbar-light .navbar-nav li:last-child {
+    padding: 0;
+}
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .active > .nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show > .nav-link {
+	color: #8f49f9;
+}
+
+/*.. header right meta ...*/
+.kbo-header-right {
+	padding-top: 76px;
+}
+.kbo-header-meta-lists li {
+	padding-right: 31px;
+	display: inline-block;
+	padding-top: 10px;
+	position: relative;
+}
+.kbo-header-meta-lists li i {
+	font-size: 24px;
+    margin-top: 3px;
+}
+.kbo-header-meta-lists li:last-child {
+	padding-right: 0;
+	padding-top: 0;
+}
+.kbo-cart-counter {
+    position: absolute;
+    top: -2px;
+    left: 21px;
+    display: block;
+    padding: 10px;
+    border-radius: 50%;
+    background: #8f49f9;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 8px;
+}
+.kbo-header-meta-lists li .fa.fa-search {
+	cursor: pointer;
+}
+.kbo-sign-in {
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	color: #b49ffa;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	border: 1px solid #ece7fe;
+	display: inline-block;
+	padding-top: 12px;
+}
+
+
+/*... site-banner ...*/
+.kbo-site-banner {
+    padding-top: 200px;
+}
+.kbo-site-banner h2 {
+	font-size: 62px;
+	padding-bottom: 80px;
+	font-weight: 500;
+}
+.kbo-site-banner p {
+	font-size: 21px;
+	line-height: 28px;
+	padding-bottom: 90px;
+}
+.kbo-get-started {
+	display: inline-block;
+	margin-right: 82px;
+}
+.kbo-get-started img {
+	margin-left: -35px;
+}
+.kbo-video {
+	position: relative;
+    top: -19px;
+    border: none;
+    background: transparent;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0;
+    font-size: 18px;
+}
+.kbo-video:focus {
+	outline: none;
+}
+.kbo-video i {
+	margin-left: 10px;
+    background: #fff;
+    color: #e7e3f4;
+    font-size: 30px;
+    position: relative;
+    top: 3px;
+}
+
+
+/*... Analytics ...*/
+.kbo-container-for-analytics {
+    padding-right: 205px;
+}
+.kbo-site-analytics-list {
+	background-image: url('../images/analytics-bg.png');
+	background-position: right -80px;
+	background-repeat: no-repeat;
+	padding-top: 190px;
+}
+.kbo-analytics-title-area h3 {
+	font-size: 52px;
+	padding-bottom: 70px;
+	margin: 0;
+}
+.kbo-analytics-title-area {
+	position: relative;
+}
+.kbo-analytics-title-area a {
+	position: absolute;
+    top: 35px;
+    right: 15px;
+    background: #fff;
+}
+.kbo-analytics-4 {
+    width: 460px;
+    padding-right: 4px;
+    padding-top: 35px;
+}
+.kbo-analytics-4 p {
+    margin-bottom: 30px;
+}
+.kbo-analytics-3 {
+    width: 400px;
+}
+.kbo-analytics-3 > div {
+    padding: 32px 36px 78px 28px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px #f8f8f8;
+}
+.kbo-analytics-list-1 {
+	background: url(../images/analytics-box-1.png) top right no-repeat;
+}
+.kbo-analytics-list-2 {
+	background: url(../images/analytics-box-bg.png) top right no-repeat;
+}
+.kbo-analytics-3 ul,
+.kbo-analytics-3 p,
+.kbo-analytics-3 h3 {
+    padding-left: 34px;
+}
+.kbo-analytics-3 h3 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.kbo-analytics-3 p {
+    margin-bottom: 40px;
+}
+.kbo-analytics-3 li {
+	padding-bottom: 5px;
+}
+.kbo-analytics-3 i {
+	color: #8f49f9;
+    margin-right: 10px;
+}
+.kbo-analytics-list-2 .kbo-icon-header {
+	margin-bottom: 6px;
+}
+
+
+
+
+
+/*... Agency ...*/
+.kbo-agency-task {
+	padding: 174px 0 165px;
+	background: url(../images/agency-bg.png) bottom center no-repeat;
+}
+.kbo-agency-title-area h3 {
+	font-size: 52px;
+	color: #382c4d;
+	background: url(../images/agency-title-icon.png) top left no-repeat;
+	padding: 111px 0 0 0;
+	margin: 0 0 100px;
+}
+.kbo-agency-title-area {
+	padding-left: 124px;
+    padding-right: 290px;
+}
+.kbo-number {
+	width: 303px;
+    height: 201px;
+    background: #fdfcff;
+    border: 2px solid #fbf8ff;
+    padding: 32px 15px 30px;
+    margin-top: 50px;
+}
+.kbo-number-count {
+	font-size: 82px;
+    color: #8f49f9;
+    font-weight: 700;
+    padding: 0 0 28px;
+    line-height: 60px;
+}
+.kbo-sub-text {
+	font-size: 30px;
+	color: #b188fb;
+}
+.kbo-plus-icon {
+	font-size: 32px;
+	color: #ff7c7c;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	position: relative;
+    top: 18px;
+    left: 10px;
+    opacity: .7;
+}
+.kbo-agency-task-complete a {
+	font-size: 20px;
+	color: #39436f;
+	border-bottom: 1px solid #b188fb;
+}
+#filters {
+	margin: 0 0 55px;
+}
+.kbo-button {
+	background: transparent;
+    border: none;
+    border-radius: 0;
+    font-size: 21px;
+    color: #382c4d;
+    text-transform: capitalize;
+    padding: 14px 20px;
+}
+.kbo-button:focus {
+	outline: none;
+}
+.kbo-button:hover,
+.kbo-button:active,
+.kbo-button.is-checked{
+	background: #8f49f9;
+	color: #fff;
+}
+.kbo-grid {
+  margin: 0 -15px;
+  min-height: 943px;
+}
+.kbo-grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.kbo-element-item {
+	position: relative;
+	float: left;
+	width: calc(100%/3);
+	/*min-height: 400px;*/
+	margin: 0;
+	padding: 0 15px 30px;
+}
+.kbo-grid .kbo-element-item img {
+	width: 100%;
+	/*height: 100%;*/
+}
+.kbo-element-item > * {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+/*... Testimonials ...*/
+.kbo-testimonials {
+	padding: 120px 0 323px;
+	background: url(../images/testimonials-bg.png) no-repeat;
+	background-position: center right 28px;
+}
+.kbo-testimonials-title {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #382c4d;
+	font-weight: 700;
+	margin: 0 0 70px;
+}
+.kbo-client-say-title {
+	font-size: 52px;
+	margin: 0 0 82px;
+}
+.kbo-testimonial-wrap {
+	background: #fff;
+	box-shadow: 0 0 20px 1px #f8f8f8;
+	margin-left: 174px;
+	width: 1047px;
+	background-image: url(../images/slide-quote.png);
+	background-repeat: no-repeat;
+	background-position: 38px 60px;
+}
+#kboTestimonials {
+	background: transparent;
+    border: none;
+    border-radius: 0;
+    margin: 0;
+}
+#kboTestimonials ul.slides li .kbo-testimonial-list {
+	padding: 85px 50px 70px  217px;
+}
+#kboTestimonials ol.flex-control-nav {
+	display: none;
+}
+.kbo-testimonial-list p {
+	font-size: 20px;
+	margin: 0 0 90px;
+	line-height: 30px;
+}
+.kbo-author-name {
+	font-size: 21px;
+	color: #382c4d;
+	font-weight: 700;
+	margin: 0 0 15px;
+}
+.kbo-author-designation {
+	color: #8f49f9;
+}
+.kbo-author-info-icon {
+	width: 82px;
+	height: 82px;
+	margin: 0;
+	padding: 0;
+	background: #e6e8fa;
+	border-radius: 50%;
+	margin-top: -9px;
+	float: left;
+	margin-right: 32px;
+	box-shadow: 0px 47px 20px 1px #f1f1f1;
+}
+.kbo-author-info {
+	padding-top: 9px;
+}
+#kboTestimonials .flex-direction-nav a {
+	opacity: 1;
+	top: auto;
+    bottom: -145px;
+    background: url(../images/slider-arrow.png) -10px 24px no-repeat;
+    font-size: 0px;
+    width: 84px;
+    height: 68px;
+    display: block;
+    transition: none;
+}
+#kboTestimonials .flex-direction-nav .flex-prev {
+	left: 512px;
+}
+#kboTestimonials .flex-direction-nav .flex-next {
+	right: 346px;
+	background-position: -131px 25px;
+}
+#kboTestimonials .flex-direction-nav a:before {
+    display: none;
+}
+#kboTestimonials .flex-direction-nav a:hover {
+	background-image: url(../images/slider-arrow-hover.png);
+	background-position: 0 0;
+}
+#kboTestimonials .flex-direction-nav a.flex-next:hover {
+	background-position: -113px 0px;
+}
+
+
+
+
+
+
+/*... Call to action ...*/
+.kbo-call-to-action-wrap {
+	background: url(../images/call-to-action-bg.png) top center no-repeat;
+	padding: 100px 71px 90px 84px;
+	position: relative;
+	box-shadow: 0 0 30px 1px #f8f8f8;
+	margin-bottom: -114px;
+}
+.kbo-call-to-action-wrap h3 {
+	font-size: 28px;
+	font-weight: 700;
+	margin: 0 0 50px;
+}
+.kbo-call-to-action-wrap p {
+	margin: 0;
+	font-size: 16px;
+}
+.kbo-btn-with-bg {
+    font-weight: normal;
+    background: #8f49f9;
+    color: #fff;
+    width: 214px;
+    height: 60px;
+    display: inline-block;
+    border-radius: 10px;
+    padding-top: 19px;
+    position: absolute;
+    top: 152px;
+    right: 71px;
+}
+.kbo-btn-with-bg:hover {
+	color: #fff;
+}
+
+
+/*... Footer ...*/
+.kbo-site-footer {
+	background: url('../images/footer-bg.png') top center no-repeat;
+	padding: 228px 0 30px;
+	color: #39436f;
+}
+.kbo-footer-logo {
+	min-width: 307px;
+}
+.kbo-site-footer .kbo-logo {
+    padding-top: 0px;
+    margin-bottom: 50px;
+}
+.kbo-language {
+    margin-bottom: 10px;
+}
+.kbo-language select {
+	font-size: 16px;
+    border: none;
+    background: transparent;
+    color: #ff846e;
+    font-family: 'Poppins', sans-serif;
+}
+.kbo-language select:focus {
+	outline: none;
+}
+.kbo-site-footer a {
+	color: #39436f;
+}
+.kbo-footer-logo .kbo-footer-lists {
+    margin-bottom: 25px;
+}
+.kbo-footer-logo .kbo-footer-lists li {
+    display: inline-block;
+    padding-right: 13px;
+}
+.kbo-social-icons li {
+	display: inline-block;
+	margin-right: 20px;
+}
+.kbo-social-icons li a {
+	display: block;
+	width: 51px;
+	height: 51px;
+	background: #fff;
+	border-radius: 50%;
+	text-align: center;
+	box-shadow: 0px 20px 40px 1px #e8dff7;
+	padding-top: 15px;
+}
+.kbo-social-icons li a:hover {
+	background: #8f49f9;
+}
+.kbo-social-icons li i {
+	color: #8f49f9;
+}
+.kbo-social-icons li:hover i {
+	color: #fff;
+}
+.kbo-footer-top h3 {
+	font-size: 20px;
+	color: #101010;
+	font-weight: 700;
+	margin-bottom: 50px;
+}
+.kbo-footer-logo {
+    padding-top: 23px !important;
+}
+.kbo-site-footer ul li {
+	margin-bottom: 22px;
+}
+.kbo-footer-top p,
+.kbo-footer-top ul li a {
+	font-size: 16px;
+}
+.kbo-footer-top .kbo-information p.kbo-address {
+	margin-bottom: 22px;
+}
+.kbo-footer-top .kbo-information p.kbo-email {
+	margin-bottom: 40px;
+}
+.kbo-footer-top .kbo-information p.kbo-cell a {
+	font-size: 20px;
+	color: #8f49f9;
+}
+.kbo-subscribe {
+	margin-top: 46px;
+	width: 100%;
+    height: 56px;
+    background: #fff;
+    box-shadow: 0px 0px 50px 1px #e8dff7;
+}
+.kbo-subscribe input[type="email"] {
+	width: 100%;
+    height: 56px;
+    border: none;
+    padding: 0 40px 0 15px;
+    font-size: 16px;
+    color: #9a9a9a;
+}
+.kbo-subscribe button {
+	border: none;
+    background: transparent;
+    padding: 0;
+    margin: -40px 20px 0 0;
+    position: relative;
+    float: right;
+    color: #8f49f9;
+}
+.kbo-about-company h3,
+.kbo-about-company ul {
+	padding-left: 100px;
+}
+.kbo-footer-bottom {
+	padding-top: 50px;
+}
+.kbo-app-btn {
+    display: inline-block;
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 1px #e8dff7;
+    padding-top: 19px;
+    font-size: 20px;
+    color: #8f49f9;
+    margin: 0 10px 50px;
+    cursor: pointer;
+}
+.kbo-app-btn i {
+    font-size: 28px;
+    position: relative;
+    margin-right: 20px;
+    top: 3px;
+}
+.kbo-app-btn img {
+    margin-right: 20px;
+}
+.kbo-app-wrap {
+	background: url(../images/footer-bottom-line.png) left 33px no-repeat;
+}
